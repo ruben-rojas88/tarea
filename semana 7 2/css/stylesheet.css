@@ -1,0 +1,142 @@
+body{
+	background-image: url(../image/blue02.jpg);
+}
+
+div.wrapper {
+	width: 100%;
+	max-width: 800px;
+}
+a:hover{
+	background-color: black;
+	opacity: 0.6;
+}
+
+a{
+	color: black;
+	padding: auto;
+	border-spacing: auto;
+	margin: 5%;
+}
+
+
+header{
+	width: 100%;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	padding: auto;
+}
+
+aside{
+	width: 25%;
+	float: left;
+	height: auto;
+	clear: both;
+	font-family: 'Oswald', Sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	padding: auto;
+	margin: auto, all;
+}
+
+aside li a{
+	color:white;
+}
+
+nav{
+	float: right;
+}
+
+nav li{
+	display: inline;
+	font-family: 'Oswald', Sans-serif;
+	font-weight: 300;
+	float: left;
+	padding: auto;
+}
+
+nav li a{
+	color: white;
+}
+
+section {
+width: 75%;
+clear: both;
+float:right;	
+}
+
+footer{
+	width: 100%;
+	float: left;
+	clear: both;
+	color: white;
+}
+
+p{
+	font-family: 'Oswald', Sans-serif;
+	font-weight: 300;
+	margin: 20px;
+	font-size: 1em;
+	color:white;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:0.625em;
+	color:white;
+}
+
+h2{
+	font-family: 'Oswald', Sans-serif;
+	font-weight: 700;
+	font-size:2.5em;
+	color: white;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size:2.5em;
+	color: white;
+}
+
+*{
+	list-style: none;
+	text-decoration: none;
+}
+
+/* viewport? */
+
+@media  screen and (max-width: 600px) {
+	footer{
+		display: none;
+	}
+
+	section{
+		float: none;width: 98%;margin: auto;
+	}
+
+	nav li{
+		display: none;
+	}
+
+	aside{
+		float:none; width: 98%;margin: auto; align-content: center;
+	}
+
+	div{
+		align-items: center;
+	}
+
+
+
+

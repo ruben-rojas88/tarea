@@ -1,0 +1,44 @@
+body{
+	background-color: #476b6b;
+}
+.wrapper{
+width:1024px;
+}
+
+.container{
+width:1024px;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+}
+
+.container div{
+width:450px;
+float: left;
+margin: 0,auto;
+align: center;
+background-color:  #94b8b8;
+display: inline-block;
+}
+
+img{
+	width:50%;
+	border-radius: 100px;
+}
+
+.box {
+	border: 20px solid #476b6b;
+	padding: 10px;
+}
+
+p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}

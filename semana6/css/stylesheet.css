@@ -1,0 +1,90 @@
+nav ul {
+	padding-bottom: 0.5%
+	text-decoration:none;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+hr{
+	clear: both;
+}
+article{
+	margin: 10px;
+	padding: 10px;
+}
+
+a:hover{
+	background-color: black;
+	opacity: 0.6;
+	background-size: 20px;
+}
+
+}
+p{
+font-family: 'Oswald', sans-serif;
+font-weight: 300;
+margin: 20px;	
+}
+
+h3{ 
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+*{
+	list-style: none;
+	text-decoration: none;
+}
+
+ul {
+	float: right;
+
+}
+
+li{
+	display: inline-block;
+}
+
+
+aside { 
+	float: left;
+	display: inline-block;
+	height: 470px;
+	
+}
+
+aside ul{
+	list-style-type: none;
+	width:33%;
+	margin: auto;
+	text-decoration: none;
+
+}
+aside li a {
+	display: inline-block;
+	margin: 10px; 
+	text-decoration: none;
+	color: black;
+
+}
+
+/* viewport */
+
+
+
+

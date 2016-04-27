@@ -1,0 +1,50 @@
+body {font-family: Arial;
+background: #333333;
+
+
+}
+.pagina {
+	width:500px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding:10px;
+	border: 1px  solid black;
+	background: white;
+
+}
+
+.encabezado {
+
+	background-color: #ff8080;
+	padding: 10px;
+	color: white;
+	font-family: Arial;
+}
+
+img {}
+
+.foto{
+background: #FF5C40;
+padding: 10px;
+
+}
+.biografia{
+background: #00FFD9;
+padding: 10px;
+color: white;
+
+
+}
+
+.habilidades {
+background: #3D7699;
+padding: 10px;
+
+}
+.contacto{
+background: #1485CC;
+padding: 10px;
+
+
+}
