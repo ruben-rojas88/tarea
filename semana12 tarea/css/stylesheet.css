@@ -1,0 +1,179 @@
+.box {
+    width: 830px;
+    overflow: hidden;
+    margin: 0px auto;
+    color: #45770A;
+    background: #45770A;
+    padding: 5px;
+
+}
+
+.box section{
+    float:left;
+    overflow:hidden;
+    color: #333;
+    margin: 3px;
+}
+
+.box section:hover{
+   
+    background-image:url(../img/paw.jpg);
+    background-repeat: repeat-x;
+}
+
+  
+.box section p{
+    display: none;
+}
+
+.box section:after{
+    position:relative;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+}
+
+.box section:nth-child(1):after{ content: '1'; }
+.box section:nth-child(2):after{ content: '2'; }
+.box section:nth-child(3):after{ content: '3'; }
+.box section:nth-child(4):after{ content: '4'; }
+.box section:nth-child(5):after{ content: '5'; }
+
+.box section:target{
+    background: #fff;
+    padding: 10px;
+}
+
+.box section:target:hover{
+    background: #fff:;
+
+}
+
+.box section:target h2{
+    width: 100%;
+}
+
+.box section:target h2 a{
+    color: #333;
+    padding: 0;
+}
+
+.box section:target p{
+    display: block;
+}
+
+.box section h2 a{
+    padding: 8px 10px 5px 10px;
+    padding-bottom: auto;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    color: #eee;
+    text-decoration: none;
+}
+
+.box section{
+    width: 100%;
+    height: 40px;
+    -moz-transition:width 0.2s ease-out;
+    -webkit-transition:width 0.2 ease-out;
+    -o-transition:width 0.2s ease-out;
+    transition: width 0.2s ease-out;
+}
+
+.box :target{
+    height: auto;
+    width: 97%;
+}
+
+.box section h2{
+    position: relative;
+    left:0;
+    top:-15px;
+}
+
+.box section:after{
+    top: -60px;
+    left: 810px;
+}
+
+.box section:target:after{
+    left:-9999px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+section img{
+    height: 25%;
+    width:  25%;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: 'Helvetica';
+}
+
+h2{
+    font-family: 'Helvetica';
+}
+
+#gato:hover{
+    background-image: url(../img/catpaw.jpg);
+    background-repeat: repeat-x;
+}
+
+#pez:hover{
+    background-image: url(../img/pez.jpg);
+    background-repeat: repeat-x;
+}
+
+
+.container{
+    background-image: url(../img/bg.png);
+    z-index: -1;
+}
+
+#cotorra:hover{
+    background-image: url(../img/tucan.jpg);
+    background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
