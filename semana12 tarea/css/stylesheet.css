@@ -1,9 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+
 .box {
     width: 830px;
     overflow: hidden;
     margin: 0px auto;
-    color: #45770A;
-    background: #45770A;
+    color: #84A58E;
+    background: #84A58E;
     padding: 5px;
 
 }
@@ -101,29 +103,48 @@
     left:-9999px;
 }
 
-ul {
+header img{
+    float: left;
+    background-color: #f2f2f2;
+}
+
+.search{
+    height: 6%;
+    width: 6%;
+    position: relative;
+    left: 100px;
+}
+
+header ul  {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #f2f2f2;
+}
+
+header{
+    background-color: #f2f2f2;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight:400;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
     background-color: #111;
+    color: white;
 }
 
 section img{
@@ -133,7 +154,8 @@ section img{
 
 p{
     font-size: 1.5em;
-    font-family: 'Helvetica';
+    font-family: 'Open Sans';
+    font-weight: 400;
 }
 
 h2{
@@ -152,7 +174,7 @@ h2{
 
 
 .container{
-    background-image: url(../img/bg.png);
+    background-color: #F9E8E0;
     z-index: -1;
 }
 
@@ -161,7 +183,20 @@ h2{
     background-repeat: repeat-x;
 }
 
+footer{
+    background-color: #f2f2f2;
+}
+footer p{
+    color: black;
+    font-family: 'Open Sans'
+    font-weight:400;
+}
 
+h1{
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: #A59595;
+}
 
 
 

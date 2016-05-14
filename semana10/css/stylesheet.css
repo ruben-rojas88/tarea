@@ -3,6 +3,8 @@
 	
 }
 
+
+
 div .uno{
 	width: 650px;
 	height: 800px;
@@ -10,6 +12,12 @@ div .uno{
 	display: inline-block;
 	float: left;
 
+}
+
+div .uno img{
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 div .dos{
@@ -70,18 +78,25 @@ div .box{
   animation-name: bounceIn;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  position: relative;
+  bottom: 195px;
+  right: 60px;
+  z-index: 1;
 }
 
 div .box2{
-	width: 0;
-	height: 0;
-	border-top: 350px solid transparent;
+	width: 20;
+	height: 20;
+	border-top: 250px solid transparent;
 	border-left: 400px solid red;
-	border-bottom: 350px solid transparent;
+	border-bottom: 250px solid transparent;
   -webkit-animation-name: bocina;
   animation-name: bocina;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  position: relative;
+  bottom: 550px;
+  left: 200px;
 }
 
 a{
