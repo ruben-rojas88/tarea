@@ -1,0 +1,202 @@
+.wrapper{
+	width: 1000px;
+	
+}
+
+
+
+div .uno{
+	width: 650px;
+	height: 800px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+
+}
+
+div .uno img{
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+div .dos{
+	width: 250px;	
+	height: 800px;
+	
+	float: left;
+	
+}
+
+div .tres{
+	width: 300px;
+	border: solid,2px,pink;
+	height: 200px;
+	background-color: pink;
+	color: black;
+	padding-top: 50%;
+}
+
+
+div .cuatro{
+	width: 300px;
+	border: solid,2px,pink;
+	height: 400px;
+	background-color: yellow;
+	
+}
+
+div .cuatro audio{
+  position: relative;
+  top: 360px;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+hr{
+	width: 75%;
+	height: 1px;
+	background-color: black;
+}
+
+div .box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom: 195px;
+  right: 60px;
+  z-index: 1;
+}
+
+div .box{
+  position: relative;
+  bottom: 225px;
+  left: 100px;
+}
+
+div .box2{
+	width: 20;
+	height: 20;
+	border-top: 250px solid transparent;
+	border-left: 400px solid red;
+	border-bottom: 250px solid transparent;
+  -webkit-animation-name: bocina;
+  animation-name: bocina;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom: 550px;
+  left: 200px;
+}
+
+button{
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    -webkit-animation-timing-function: linear ;
+    animation-timing-function: linear;
+  }
+
+  0% {
+    opacity: 0;
+    
+  }
+
+  20% {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform: translate3d(200,60,55);
+  }
+
+  40% {
+    -webkit-transform:rotate(40deg);
+    transform: rotate(40deg);
+    transform: translate3d(125,45,55);
+
+  }
+
+  60% {
+    opacity: 1;
+    transform: rotate(60deg);
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+    transform: translate3d(200,50,125);
+  }
+
+  80% {
+    transform: rotate(180deg);
+    transform: translateX(550px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transform:translateX(300px);
+    transform: translateX(600px);
+    transform: rotate(240deg);
+  }
+}
+
+@keyframes bocina {
+  from, 20%, 40%, 60%, 80%, to {
+    -webkit-animation-timing-function: linear ;
+    animation-timing-function: linear;
+  }
+
+  0% {
+    opacity: 0;
+    
+  }
+
+  20% {
+    transform: scaleX(3);
+  }
+
+  40% {
+    transform: scaleX(0.5);
+
+  }
+
+  60% {
+   transform: scaleX(5);
+  }
+
+  80% {
+    transform: scaleX(0.5);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transform:translateX(300px);
+    transform: translateX(600px);
+    transform: rotate(240deg);
+  }
+}
