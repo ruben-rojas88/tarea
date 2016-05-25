@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,600italic);
+.wrapper{
+
+	width: 100%;
+	height: 100%;
+	
+}
+
+body
+{
+	background-image: url(../img/bg.png);
+	background-repeat: none;
+	background-size: 100%;
+
+}
+
+.left{
+	width: 25%;
+	display: inline-block;
+	float: left;
+	border: none;
+	margin: 0,0,auto,0;
+	height: 100%
+}
+
+.middle{
+	width: 50%;
+	display: inline-block;
+	float: left;
+	border: none;
+}
+
+.right{
+	width: 25%;
+	display: inline-block;
+	float: right;
+	border: none;
+}
+
+.right img{
+	float: right;
+}
+.navbar{
+	background-color: #e65c25;
+	color: white;
+}
+
+.navbar-1{
+
+}
+
+.navbar a{
+	color: white;
+}
+
+
+img.panel{
+	width: 100%;
+	height: auto;
+}
+
+ .footer1 {
+ 	width: 100%;
+ 	background-color: green;
+
+}
+
+ h2 h3 h4 p a{
+ 	font-family: 'Open Sans';
+ 	font-weight: '400';
+
+}
